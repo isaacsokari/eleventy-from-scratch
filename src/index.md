@@ -17,4 +17,6 @@ primaryCTA:
 featuredWork:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
+studioFeed:
+  title: 'From inside the studio'
 ---
