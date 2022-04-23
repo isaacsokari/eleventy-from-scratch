@@ -26,6 +26,7 @@
     "get-google-fonts": "^1.2.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "7.1.0",
     "gulp-sass": "^5.1.0",
     "moment": "^2.29.2",
     "sass": "^1.50.1"
