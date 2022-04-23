@@ -1,3 +1,4 @@
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 // Filters
@@ -11,6 +12,9 @@ module.exports = (config) => {
 
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/images/');
+
+  // Plugins
+  config.addPlugin(rssPlugin);
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', (collection) => {
