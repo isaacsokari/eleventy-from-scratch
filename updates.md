@@ -54,3 +54,16 @@ To fix this error above, downgrade to `gulp-imagemin@7.1.0`, replace the install
 ```
 npm install gulp-imagemin@7.1.0
 ```
+
+## 3. `gorko`
+
+[01:50:44] Starting 'sass'...
+Warning: $outputTokenCSS is deprecated. Please use $generate-utility-classes instead
+    node_modules/gorko/gorko.scss 11:3  @import
+    src/scss/home.scss 8:9              root stylesheet
+
+Warning: $outputTokenCSS is deprecated. Please use $generate-utility-classes instead
+    node_modules/gorko/gorko.scss 11:3  @import
+    src/scss/page.scss 8:9              root stylesheet
+
+
