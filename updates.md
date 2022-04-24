@@ -67,3 +67,9 @@ Warning: $outputTokenCSS is deprecated. Please use $generate-utility-classes ins
     src/scss/page.scss 8:9              root stylesheet
 
 
+## 4. Gulp tasks
+
+All references to the `dist` directory should be set to `_site` in these files
+- fonts.js
+- images.js
+- sass.js
