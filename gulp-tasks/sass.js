@@ -18,9 +18,9 @@ const criticalStyles = [
 
 // Takes the arguments passed by `dest` and determines where the output file goes
 const calculateOutput = ({ history }) => {
-  // By default, we want a CSS file in our dist directory, so the
+  // By default, we want a CSS file in our _site directory, so the
   // HTML can grab it with a <link />
-  let response = './dist/css';
+  let response = './_site/css';
 
   // Get everything after the last slash
   const sourceFileName = /[^(/|\\)]*$/.exec(history[0])[0];
